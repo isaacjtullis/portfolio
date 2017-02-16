@@ -13,7 +13,17 @@
  *= require_tree .
  *= require_self
  */
+#bootstrap-overrides {
+  background-color: #B1EDE8;
+}
+
+.cover-photo img {
+  position: relative;
+  height: 600px;
+  width: 100%;
+  z-index: 0;
+}
 
 .text-container {
-  background-color: white;
+  color: #F9364A;
 }
