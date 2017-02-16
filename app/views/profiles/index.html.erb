@@ -1,11 +1,39 @@
 <div class="row">
-  <div class="col-md-3"></div>
-  <div class="col-md-6">
+  <div class="col-md-2"></div>
+    <div class="col-md-6">
     <div class="text-container">
-      Hi! My name is Isaac Tullis
     </div>
   </div>
   <div class="col-md-3"></div>
+</div>
+<div class="row">
+  <div class="col-md-2"></div>
+  <div class="col-md-4">
+    <h2>A little bit about me</h2>
+    <p>I am a web developer that loves building functional, creative and simple
+    websites. I am a nerd when talking about how you structured your data and
+    I love learning new tricks to make code look as eloquent as possible.</p>
+
+    <h2>Fun Facts</h2>
+    <p>
+      <%= "I am a massive tennis fan " %><%= link_to ' and yes Roger Federer is the greatest of all time', 'http://www.maxim.com/entertainment/the-natural-roger-federer-2016-5'%>.</br>
+      <%= "I did a 40 day hiking trip through the "%><%= link_to 'Wind River Range', 'https://en.wikipedia.org/wiki/Wind_River_Range'%>.</br>
+      <%= "I applied to go to space to populate Mars but I was too tall." %></br>
+      <%= "Lastly, I once made it to my local news channel. " %><%= link_to 'My biggest achievement ever', 'http://www.krdo.com/news/local-news/engine-failure-prompts-emergency-landing-at-colorado-springs-airport/35081896'%>.
+    </p>
+  </div>
+  <div class="col-md-4">
+    <h2>Let's Talk</h2>
+    <p>Here is my <%= link_to "Github Account", 'https://github.com/isaacjtullis'%></p>
+    <p>Here is my <%= link_to "LinkedIn Account", 'https://www.linkedin.com/in/isaac-j-tullis' %></p>
+    <h2>My Specialities</h2>
+    <ul>
+      <li>Ruby</li><li>Rails</li><li>Javascript</li> <li>React.js</li>
+      <li>HTML</li> <li>PostgreSQL</li> <li>TDD</li>
+    </ul>
+  </div>
+  <div class="col-md-2">
+  </div>
 </div>
 
 <div class="past-work-container">
