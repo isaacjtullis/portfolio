@@ -14,7 +14,6 @@
  *= require_self
  */
 #bootstrap-overrides {
-  background-color: #B1EDE8;
 }
 
 .cover-photo img {
@@ -26,4 +25,46 @@
 
 .text-container {
   color: #F9364A;
+}
+
+
+.past-work-container {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.past-work-container p.banner {
+  color: #DA3638;
+  font-size: 30px;
+  font-weight: 700;
+  font-family: sans-serif;
+}
+
+.center-text {
+  margin-bottom: 50px;
+}
+
+.past-work-container h3 a {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: #7ACED6;
+  font-weight: 700;
+  font-family: sans-serif;
+}
+
+.past-work-container p {
+  margin-bottom: 20px;
+  font-family: sans-serif;
+  font-size: 15px;
+  line-height: 20px;
+}
+
+.photo-container {
+  background-color: #E4E3E3;
+  margin: 50px;
+}
+.photo-container img {
+  margin: 50px;
+  height: 150px;
+  display: inline-block;
 }

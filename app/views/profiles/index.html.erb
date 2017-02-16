@@ -7,3 +7,48 @@
   </div>
   <div class="col-md-3"></div>
 </div>
+
+<div class="past-work-container">
+  <p class="banner"><%= "WORK I'VE DONE" %></p>
+    <div class="center-text">
+      <p>These projects are deployed with Heroku and are constantly evolving.</br>
+        I am continually adding new features to these sites weekly and am currently learning React.js to improve the user experience.</br>
+        I would love to talk about some of the things I have built and some ideas that I am currently thinking through.</p></br>
+    </div>
+  <h3><%= link_to "CITY IN A DAY", "http://city-in-a-day.herokuapp.com/"%></h3>
+  <p>Used Devise for user authentication and implemented CarrierWave for users to
+  post photos to their profile.</br>
+  Added Javascript to enhance the user’s experience.</br>
+  Integrated Google Maps API for users to save specific locations.</br>
+  Users can follow other users, favorite other users posts and see all of these
+  changes on their profile page.</br>
+  The project is completely test-driven through Rspec and Capybara
+  and styled using CSS.</p>
+  <div class="photo-container">
+    <%= image_tag "home.png" %>
+    <%= image_tag "login.png" %>
+    <%= image_tag "googlemaps.png" %>
+    <%= image_tag "making-a-trail.png" %>
+    <%= image_tag "featured-trail.png" %>
+    <%= image_tag "profile.png" %>
+  </div>
+  <h3><%= link_to "ALL THAT'S LOCAL", "https://all-thats-local.herokuapp.com/"%></h3>
+  <p> Used Devise for user authentication.</br>
+      Implemented Ajax for asynchronous loading.</br>
+      Added jQuery for slide down forms.</br>
+      Completely test-drive with Rspec.
+  </p>
+  <div class="photo-container">
+    <%= image_tag "home-screen.png" %>
+    <%= image_tag "form.png" %>
+    <%= image_tag "comments.png" %>
+  </div>
+  <h3><%= link_to "Andrews Design", "http://andrews-design.herokuapp.com/"%></h3>
+  <p>Styled with HTML and CSS</br>
+     Added Action Mailer for users to easily contact admin</p>
+  <div class="photo-container">
+    <%= image_tag "andrews-home-screen.png" %>
+    <%= image_tag 'contact-form.png' %>
+    <%= image_tag 'about-us.png' %>
+  </div>
+</div>
