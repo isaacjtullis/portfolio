@@ -13,7 +13,11 @@
  *= require_tree .
  *= require_self
  */
+
 #bootstrap-overrides {
+}
+.navbar.navbar-light.bg-faded {  
+  background-color: #3097D1
 }
 
 .profile-picture img {
