@@ -16,8 +16,13 @@
 
 #bootstrap-overrides {
 }
-.navbar.navbar-light.bg-faded {  
+
+.navbar.navbar-light.bg-faded {
   background-color: #3097D1
+}
+.navbar.navbar-light.bg-faded a {
+  padding: 50px;
+  color: black;
 }
 
 .profile-picture img {
