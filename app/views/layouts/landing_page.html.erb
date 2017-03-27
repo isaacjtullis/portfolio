@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:300,400,500,700" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Advent+Pro" rel="stylesheet">
+
     <title>Portfolio</title>
     <%= csrf_meta_tags %>
 
@@ -15,7 +16,31 @@
     <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
     <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
   </head>
-  <body id="bootstrap-overrides">
-    <%= yield %>
+  <body>
+    <div class="container">
+      <div class="home-photo">
+        <div class="col-md-12">
+          <img src="https://scontent-dft4-1.cdninstagram.com/t51.2885-15/e35/14676769_317510038630291_8747930547440844800_n.jpg" alt="">
+        </div>
+      </div>
+      <div class="col-md-12 text-center">
+
+        <div class="col-md-4 first-button">
+          <button class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect mdl-button--colored">
+            My 101's
+          </button>
+        </div>
+        <div class="col-md-4 second-button">
+          <button class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect">
+            My Thoughts
+          </button>
+        </div>
+        <div class="col-md-4 third-button">
+          <button class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect mdl-button--colored">
+            My Stories
+          </button>
+      </div>
+      </div>
+    </div>
   </body>
 </html>

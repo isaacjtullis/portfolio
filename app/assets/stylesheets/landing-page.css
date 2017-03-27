@@ -1,0 +1,108 @@
+.about-me {
+  margin-top: 100px;
+}
+
+/*
+
+.navbar.navbar-default {
+  -webkit-box-shadow: 0;
+  box-shadow: 0 0px 0px rgba(0,0,0,0);
+}
+.navbar a.navbar-brand {
+  color: black;
+}
+.navbar.navbar-light.bg-faded a {
+  padding: 50px;
+  color: black;
+}
+
+.profile-picture h1 {
+  display: inline-block;
+  margin: 0px;
+  margin-top: 100px;
+}
+
+.text-container {
+  color: #F9364A;
+}
+
+
+.past-work-container {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.past-work-container p.banner {
+  color: #DA3638;
+  font-size: 30px;
+  font-weight: 700;
+  font-family: sans-serif;
+}
+
+.center-text {
+  margin-bottom: 50px;
+}
+
+.past-work-container h3 a {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: #7ACED6;
+  font-weight: 700;
+  font-family: sans-serif;
+}
+
+.past-work-container p {
+  margin-bottom: 20px;
+  font-family: sans-serif;
+  font-size: 15px;
+  line-height: 20px;
+}
+
+.photo-container {
+  background-color: #E4E3E3;
+  margin: 50px;
+}
+.photo-container img {
+  margin: 50px;
+  height: 150px;
+  display: inline-block;
+}
+
+.container .home-photo img {
+  height: 200px;
+  width: 200px;
+}
+.first-button button, .second-button button, .third-button button {
+  height: 200px;
+  width: 200px;
+  margin-top: 50%;
+  box-shadow: 0 0 8px #757575;
+  font-family: 'Advent Pro', sans-serif;
+}
+
+.first-button .mdl-button.mdl-js-button.mdl-button--fab.mdl-js-ripple-effect.mdl-button--colored {
+  background-color: #EEEEEE;
+  color: black;
+}
+.first-button .mdl-button.mdl-js-button.mdl-button--fab.mdl-js-ripple-effect.mdl-button--colored: {
+}
+.second-button .mdl-button.mdl-js-button.mdl-button--fab.mdl-js-ripple-effect {
+  background-color: #68EFAD;
+  background-color: #EEEEEE;
+  color: black;
+
+}
+.third-button .mdl-button.mdl-js-button.mdl-button--fab.mdl-js-ripple-effect.mdl-button--colored {
+  background-color: #FFCC80;
+  background-color: #EEEEEE;
+  color: black;
+
+}
+
+h1 {
+  background-color: hsl(40, 9%, 20%);
+}
+h2 {
+  background-color: hsl(330, 75%, 35%)
+}
+*/
