@@ -1,0 +1,48 @@
+/*
+.boxes {
+  margin-left: 35.5%;
+}
+.box, .box-2 {
+  height: 249.7px;
+  width: 181.6px;
+  background-color: rgb(255, 204, 128); //<-- 200 weight orange //100 orange weight rgb(255, 224, 178)
+  margin-bottom: 30px;
+  display: inline-block;
+  position: relative;
+  a {
+    position: absolute;
+  }
+}
+*/
+.box {
+  height: 500px;
+  .text h1, .text h1 a {
+    text-align: center;
+    padding-top: 230px;
+    color: white;
+    font-weight: 900;
+  }
+}
+
+.blog, .projects {
+  .col-md-6 {
+    padding: 0;
+  }
+  .description {
+    color: black;
+    text-align: center;
+    padding-top: 180px;
+    font-weight: 100;
+    font-size: 60px;
+  }
+}
+.blog {
+  .box {
+    background-color: rgba(247, 72, 77, 0.9);
+  }
+}
+.projects {
+  .box {
+    background-color: #f6be64;
+  }
+}

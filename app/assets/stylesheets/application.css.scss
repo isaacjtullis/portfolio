@@ -13,40 +13,40 @@
  *= require_tree .
  *= require_self
  */
- body h1, body h3 {
-   margin: 0;
-   padding: 0;
- }
+
+body h1, body h3 {
+  margin: 0;
+  padding: 0;
+}
 
 .banner {
   position: relative;
-  height: 600px;
+  height: 500px;
   width: 100%;
+  .text {
+    width: 50%;
+    height: 500px;
+    background-color: rgb(100, 181, 246);
+    h1 {
+      position: absolute;
+      top: 100px;
+      left: 25%;
+      color: white;
+      font-weight: 900;
+      font-size: 100px;
+      font-family: sans-serif;
+    }
+  }
 }
 
-.banner .text {
-  width: 50%;
-  height: 600px;
-  background-color: #70ACBD;
-}
-
-.banner .text h1 {
-  position: absolute;
-  top: 60px;
-  left: 25%;
-  color: #EBF2F4;
-  font-weight: 900;
-  font-size: 100px;
-  font-family: sans-serif;
-}
 .intro-photo {
-  height: 600px;
+  height: 500px;
+  img {
+    margin: 50px 0 0 25%;
+    width: 50%;
+  }
 }
-.intro-photo img {
-  margin: 50px 0 0 25%;
 
-  width: 50%;
-}
 
 .personal-navbar {
   position: absolute;
@@ -54,6 +54,7 @@
   bottom: 0;
   width: 100%;
   text-align: center;
+  //box-shadow: 2em 5em #888888;
 }
 
 .personal-navbar ul {
@@ -62,27 +63,33 @@
 }
 
 li {
-  padding: 30px 0;
-  list-style: none;
+padding: 30px 0;
+list-style: none;
 }
 .name {
   background-color: white;
-  color: #B2463B;
+  li a {
+    color: black;
+  }
 }
-.first, .second, .third {
-  background-size: contain;
-}
-.first:hover, .second:hover, .third:hover {
-  font-size: 30px;
-}
-.first {
-  background-color: #F49E4C;
+.first:hover {
+  background-color: #FFE0B2;
   color: #215369;
+  li a {
+    color: #215369;
+  }
 }
-.second {
-  background-color: #215369;
-  color: #F49E4C;
+.second:hover {
+  background-color: #E3F2FD;
+  li a {
+    color: #F49E4C;
+  }
 }
-.third {
-  background-color: #B2463B;
+.third:hover {
+  background-color: #FFCDD2;
+  li a {
+    color: white;
+  }
 }
+/*
+*/
