@@ -1,1 +1,32 @@
-<%= link_to "New Blog Post", new_post_path %>
+<div class="blog-page">
+  <button type="button" class="btn btn-primary"><%= link_to "Home", profiles_path%></button>
+  <div class="fluid-container">
+    <div class="col-md-12">
+      <div class="header text-center">
+        <h1>Welcome to my blog</h1>
+        <div class="divider text-center">
+        </div>
+      </div>
+    </div>
+    <div class="col-md-7 col-md-offset-2 blog-posts">
+      <% @posts.each do |post| %>
+        <% if post.title != nil %>
+          <h3><%= link_to raw(post.title), post_path(post.id) %>
+            <div class="divider"></div>
+          </h3>
+          <% else %>
+        <% end %>
+      <% end %>
+    </div>
+    <div class="col-md-3 side-bar">
+      <div class="divider">
+      </div>
+      Content
+    </div>
+  </div>
+</div>
+
+
+<div class="container">
+  <%= link_to "New Blog Post", new_post_path %>
+</div>

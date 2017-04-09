@@ -1,0 +1,48 @@
+.blog-page {
+  .header {
+    margin-top: 100px;
+    color: #64B5F6;
+    font-weight: 900;
+    .divider {
+      margin-top: 10px;
+      margin-left: auto;
+      margin-right: auto;
+      width: 8%;
+      height: 3px;
+      background-color: #FF9800;
+    }
+  }
+  .blog-posts {
+    h3 {
+      padding-left: 0px;
+      margin-top: 50px;
+      height: 50px;
+      .divider {
+        margin-top: 20px;
+        width: 8%;
+        height: 3px;
+        background-color: #FF9800;
+      }
+    }
+  }
+  .side-bar {
+    height: 100%;
+    display: inline-block;
+    margin-top: 50px;
+    .divider {
+      display: inline-block;
+      width: 1px;
+      height: 500px;
+      background-color: #FF9800;
+      vertical-align: top;
+      margin-right: 10px;
+    }
+  }
+}
+
+/*
+Colors:
+Main Color: Blue - Font color: #64B5F6 (rgb(100, 181, 246);) (weight of 300)
+Accents: Orange 100 for light background changes 300 for fonts and 500 for dividers
+100: #FFE0B2; (rgb(255, 224, 178)) -> 300: #FFB74D; (rgb(255, 183, 77)) -> 500: #FF9800 (rgb(255, 152, 0));
+*/
