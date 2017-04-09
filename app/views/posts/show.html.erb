@@ -1,0 +1,8 @@
+<div class="container">
+  <div class="col-md-12">
+    <%= raw(@post.title) %>
+    <%= @post.created_at.strftime('%b %d, %Y') %>
+    <div><%= raw(@post.body) %></div>
+
+  </div>
+</div>
