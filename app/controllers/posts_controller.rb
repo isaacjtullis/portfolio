@@ -1,4 +1,6 @@
 class PostsController < ApplicationController
+  before_action :admin?, only: [:new, :create, :update]
+
   def index
     @posts = Post.all
   end
@@ -26,5 +28,9 @@ class PostsController < ApplicationController
 
   def post_params
     params.require(:post).permit(:title, :body)
+  end
+
+  def admin?
+    redirect_to posts_path if current_user.admin != "onering"
   end
 end
